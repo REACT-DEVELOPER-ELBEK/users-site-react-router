@@ -27,9 +27,9 @@ const Users = () => {
                             <p>Address: {item.address.street}</p>
                             <p>Phone: {item.phone}</p>
                             <div className="users__btns">
-                              <NavLink to='/todos'>Todos</NavLink>
-                              <NavLink to='/posts'>Posts</NavLink>
-                              <NavLink to='/gallery'>Gallery</NavLink>
+                              <NavLink to={`/todos/${item.id}`}>Todos</NavLink>
+                              <NavLink to={`/posts/${item.id}`}>Posts</NavLink>
+                              <NavLink to={`/gallery`}>Gallery</NavLink>
                             </div>
                           </div>
                         )

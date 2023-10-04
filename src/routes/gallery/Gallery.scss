@@ -1,0 +1,49 @@
+.albums{
+    padding-bottom: 50px;
+    .container{
+        .albums__wrapper{
+            h2{
+                color: #5D5FEF;
+                font-family: Open Sans;
+                font-size: 50px;
+                font-weight: 700;
+                line-height: 160%;  
+                letter-spacing: 0.031px;
+                display: flex;
+                justify-content: center;
+            }
+            .albums__cards{
+                display: flex;
+                flex-wrap: wrap;
+                gap: 30px 30px;
+                margin-top: 50px;
+                justify-content: center;
+                .albums__item{
+                    padding: 40px;
+                    border-radius: 15px;
+                    width: 400px;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-between;
+                    min-height: 150px;
+                    padding: 5px 30px;
+                    border: 0.436px solid #3437F1;
+                    background: var(--iris-100, #5D5FEF);
+                    box-shadow: 0px 1.52693px 3.05387px 0px #D3DAE2;
+                    h1{
+                        color: #fff;
+                        font-family: Open Sans;
+                        font-size: 24px;
+                    }
+                    a{
+                        button{
+                            padding: 10px;
+                            font-size: 20px;
+                            border-radius: 12px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

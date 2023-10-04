@@ -1,0 +1,55 @@
+.posts{
+    padding-bottom: 50px;
+    .container{
+        .posts__wrapper{
+            h2{
+                color: #5D5FEF;
+                font-family: Open Sans;
+                font-size: 50px;
+                font-weight: 700;
+                line-height: 160%;  
+                letter-spacing: 0.031px;
+                display: flex;
+                justify-content: center;
+            }
+            .posts__cards{
+                display: flex;
+                flex-direction: column;
+                gap: 30px 60px;
+                margin-top: 50px;
+                justify-content: center;
+                .posts__item{
+                    padding: 20px;
+                    border-radius: 15px;
+                    width: 100%;
+                    display: flex;
+                    flex-direction: column;
+                    min-height: 150px;
+                    padding: 5px 30px;
+                    border: 0.436px solid #3437F1;
+                    background: var(--iris-100, #5D5FEF);
+                    box-shadow: 0px 1.52693px 3.05387px 0px #D3DAE2;
+                    h1{
+                        color: #fff;
+                        font-family: Open Sans;
+                        font-size: 24px;
+                    }
+                    p{
+                        margin-top: 5px;
+                        font-family: Open Sans;
+                        color: #f5f5f5;
+                        font-size: 20px;
+                    }
+                    a{
+                        button{
+                            font-size: 20px;
+                            margin-top: 5px;
+                            padding: 5px;
+                            border-radius: 10px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
