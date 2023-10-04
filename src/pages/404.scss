@@ -1,13 +1,6 @@
-// .error404{
-//     width: 1400px;
-//     height: 100vh;
-//     img{
-//         width: 1400px;
-//         height: 100vh;
-//     }
-// }
-
-body{
-    background: url(../assets/not-found.webp) no-repeat center center fixed;
-    background-size: cover;
+.error404{
+    img{
+        width: 100%;
+        height: 100%;
+    }
 }
